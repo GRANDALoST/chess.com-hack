@@ -1,1 +1,4 @@
 chesscheat.zip
+node_modules/
+*.tgz
+package/

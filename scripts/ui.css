@@ -1,0 +1,93 @@
+.chesscheat-panel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #262421;
+  color: #e8e6e3;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.chesscheat-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: #7fa650;
+}
+
+.chesscheat-button:hover {
+  background: #8fbb5a;
+}
+
+.chesscheat-button.chesscheat-running {
+  background: #b3341f;
+}
+
+.chesscheat-button.chesscheat-running:hover {
+  background: #c9422c;
+}
+
+.chesscheat-depth-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.chesscheat-depth {
+  width: 56px;
+  padding: 6px 6px;
+  border-radius: 4px;
+  border: 1px solid #4a4843;
+  background: #1b1a18;
+  color: #e8e6e3;
+}
+
+.chesscheat-auto {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.chesscheat-auto input {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  accent-color: #7fa650;
+}
+
+.chesscheat-human,
+.chesscheat-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chesscheat-human select,
+.chesscheat-rating select {
+  padding: 5px 6px;
+  border-radius: 4px;
+  border: 1px solid #4a4843;
+  background: #1b1a18;
+  color: #e8e6e3;
+  font-size: 12px;
+}
+
+.chesscheat-status {
+  color: #b8b6b2;
+}
+
+.chesscheat-credit {
+  margin-left: auto;
+  font-size: 11px;
+  color: #7a7873;
+}

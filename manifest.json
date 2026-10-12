@@ -1,23 +1,31 @@
 {
   "manifest_version": 3,
-  "name": "Chesscheat",
-  "version": "1.3",
-  "icons": { "16": "icon.png",
-  "48": "icon.png",
- "128": "icon.png" },
- "browser_specific_settings": {
-  "gecko": {
-    "id": "chesscheatextension@gmail.com"
-  }
-},
-  "description": "Always see the optimal move in any chess.com game. Guarantees wins almost 100% of the time",
+  "name": "__MSG_appName__",
+  "version": "2.1",
+  "default_locale": "en",
+  "minimum_chrome_version": "116",
+  "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" },
+  "description": "__MSG_appDesc__",
+  "permissions": ["storage", "offscreen"],
+  "host_permissions": ["https://www.chess.com/*", "https://chess.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
   "content_scripts": [
     {
+      "matches": ["https://www.chess.com/*", "https://chess.com/*"],
+      "js": ["scripts/page-bridge.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://www.chess.com/*", "https://chess.com/*"],
       "js": ["scripts/main.js"],
-      "matches": [
-        "https://www.chess.com/*",
-        "https://chess.com/*"
-      ]
+      "css": ["scripts/ui.css"],
+      "run_at": "document_start"
     }
   ]
 }

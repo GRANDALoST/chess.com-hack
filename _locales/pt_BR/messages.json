@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Chess.com Hack"
+  },
+  "appDesc": {
+    "message": "Hack para o chess.com: veja o melhor lance em qualquer partida e jogue sozinho com tempo humanizado. Motor Stockfish embutido, roda localmente."
+  },
+  "startHack": {
+    "message": "Iniciar Hack"
+  },
+  "stopHack": {
+    "message": "Parar Hack"
+  },
+  "reloadPage": {
+    "message": "Recarregar página (F5)"
+  },
+  "autoPlay": {
+    "message": "Jogar sozinho"
+  },
+  "human": {
+    "message": "Humano"
+  },
+  "depth": {
+    "message": "Profundidade"
+  },
+  "rating": {
+    "message": "Rating"
+  },
+  "optOff": {
+    "message": "Desligado (melhor lance)"
+  },
+  "optV1": {
+    "message": "Humanizado v1"
+  },
+  "optV2": {
+    "message": "Humanizado v2"
+  },
+  "optV3": {
+    "message": "Humanizado v3 (só tempo)"
+  },
+  "optBullet": {
+    "message": "Bullet (1 min)"
+  },
+  "idle": {
+    "message": "Parado"
+  },
+  "stopped": {
+    "message": "Parado"
+  },
+  "starting": {
+    "message": "Iniciando..."
+  },
+  "waiting": {
+    "message": "Esperando o oponente..."
+  },
+  "thinkingBullet": {
+    "message": "Pensando (bullet)..."
+  },
+  "thinkingDepth": {
+    "message": "Pensando (profundidade $1)..."
+  },
+  "autoMove": {
+    "message": "Auto-play: lance em $1s..."
+  },
+  "bestMove": {
+    "message": "Melhor: $1 para $2"
+  },
+  "engineError": {
+    "message": "Erro no motor (ver console)"
+  },
+  "fallback": {
+    "message": "Modo alternativo (leitura do DOM)"
+  },
+  "credit": {
+    "message": "feito por: grandalost"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Chess.com Hack"
+  },
+  "appDesc": {
+    "message": "Hack for chess.com: see the best move in any game and auto-play with human-like timing. Bundled Stockfish engine, runs locally."
+  },
+  "startHack": {
+    "message": "Start Hack"
+  },
+  "stopHack": {
+    "message": "Stop Hack"
+  },
+  "reloadPage": {
+    "message": "Reload page (F5)"
+  },
+  "autoPlay": {
+    "message": "Auto-play"
+  },
+  "human": {
+    "message": "Human"
+  },
+  "depth": {
+    "message": "Depth"
+  },
+  "rating": {
+    "message": "Rating"
+  },
+  "optOff": {
+    "message": "Off (best move)"
+  },
+  "optV1": {
+    "message": "Humanized v1"
+  },
+  "optV2": {
+    "message": "Humanized v2"
+  },
+  "optV3": {
+    "message": "Humanized v3 (time only)"
+  },
+  "optBullet": {
+    "message": "Bullet (1 min)"
+  },
+  "idle": {
+    "message": "Idle"
+  },
+  "stopped": {
+    "message": "Stopped"
+  },
+  "starting": {
+    "message": "Starting..."
+  },
+  "waiting": {
+    "message": "Waiting for opponent..."
+  },
+  "thinkingBullet": {
+    "message": "Thinking (bullet)..."
+  },
+  "thinkingDepth": {
+    "message": "Thinking (depth $1)..."
+  },
+  "autoMove": {
+    "message": "Auto-play: moving in $1s..."
+  },
+  "bestMove": {
+    "message": "Best: $1 to $2"
+  },
+  "engineError": {
+    "message": "Engine error (see console)"
+  },
+  "fallback": {
+    "message": "Fallback mode (DOM scraping)"
+  },
+  "credit": {
+    "message": "by grandalost"
+  }
+}
